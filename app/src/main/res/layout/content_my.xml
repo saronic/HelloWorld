@@ -8,15 +8,18 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.lsx.helloworld.MyActivity"
     tools:showIn="@layout/activity_my">
-<EditText
-    android:id="@+id/edit_message"
-    android:layout_weight="1"
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:hint="@string/edit_message"/>
-    <Button
+
+    <EditText
+        android:id="@+id/edit_message"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="send"/>
+        android:hint="@string/edit_message" />
+
+    <Button
+        android:id="@+id/content_my_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="send" />
 </LinearLayout>
